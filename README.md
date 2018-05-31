@@ -1,5 +1,5 @@
 # Node.js-spider
-Node.js批量抓取高清妹子图片
+Node.js批量抓取图片
 ## 安装Node.js
 http://nodejs.org/download/
 ## 安装依赖包

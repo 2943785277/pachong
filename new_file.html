@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p onclick="url()">点击</p>
+		<div id="div">
+			
+		</div>
+	</body>
+</html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$.ajax({
+		type:"get",
+		url:"http://127.0.0.1:8080/?name=666",
+		data:'',
+		success:function(data){
+			$('p').text(data)
+		}
+	});
+</script>
